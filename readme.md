@@ -25,7 +25,7 @@ jobs:
           update-server-url: "https://custom-server.com"
           package-type: "Plugin"
           server-secret-key: ${{ secrets.SERVER_SECRET_KEY }}
-          github-access-token: ${{ secrets.GITHUB_ACCESS_TOKEN }}
+          github-access-token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
 ## 📎 Inputs
